@@ -4,6 +4,7 @@ from langchain.embeddings import SentenceTransformerEmbeddings
 from langchain.vectorstores import Chroma 
 import os 
 from constants import CHROMA_SETTINGS
+from pydantic.v1 import BaseSettings
 
 persist_directory = "db"
 
